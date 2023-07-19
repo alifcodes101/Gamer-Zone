@@ -264,14 +264,13 @@ nav h3 {
 
 .play-instantly {
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
 }
 
 .play-instantly-content {
-    margin-left: 300px;
-    margin-right: 100px;
-    margin-top: 250px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-top: 250px;
 }
 
 .play-instantly-content h4 {
@@ -287,7 +286,7 @@ nav h3 {
 
 .play-instantly-content p {
   color: var(--text-color-3);
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 18px;
   font-weight: 400;
   width: 375px;
@@ -295,11 +294,74 @@ nav h3 {
 }
 
 .small-image {
-    position: relative;
-    bottom: 300px;
-    right: 60px;
+  position: relative;
+  bottom: 300px;
+  right: 60px;
 }
 
 .big-image {
-    margin-left: 50px;
+  margin-left: 50px;
+}
+
+/* careers style  */
+
+.careers {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  height: 600px;
+  
+}
+
+.career-content {
+    margin-left: 30px;
+}
+
+.career-content h4 {
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-color-5);
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.career-content p {
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color-5);
+  width: 680px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.jobs {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color-5);
+  display: flex;
+}
+
+.jobs ul {
+  list-style: none;
+}
+
+.career-content button {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #ffffff;
+  color: #f948b2;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.careers-img img {
+    width: 100%;
 }
