@@ -186,7 +186,7 @@ nav h3 {
   border-color: transparent;
   margin-bottom: 1rem;
   color: var(--text-color-5);
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
   font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -209,4 +209,53 @@ nav h3 {
   font-family: "Work Sans";
   font-size: 2rem;
   font-weight: 700;
+}
+
+/* online games styles  */
+
+.online-games {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+}
+
+.online-games h3 {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-color-1);
+  margin-bottom: 10px;
+}
+
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Work Sans";
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.online-games p {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--text-color-3);
+  margin-bottom: 40px;
+}
+
+.online-games-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-title {
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-color-3);
+  width: 270px;
 }
